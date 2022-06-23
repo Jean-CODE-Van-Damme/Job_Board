@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./component/Header";
+import Jobs from "./component/Jobs";
+import Footer from "./component/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header name={"The Job Board"} />
+
+      <div className="body">
+        <Jobs />
+      </div>
+
+      <div class="footer">
+        <Footer
+          dedicace={"Made with React at Le reacteur By Olivier Reverseau"}
+        />
+      </div>
+    </>
   );
-}
+};
 
 export default App;
