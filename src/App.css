@@ -28,8 +28,8 @@ h1 {
 }
 
 .annonce {
-  width: 31%;
-  height: 31%;
+  width: 30%;
+  height: 30%;
   margin-bottom: 10px;
   /* background-color: red; */
 }
@@ -48,34 +48,35 @@ h1 {
   /* background-color: blue; */
   text-align: justify;
   font-size: 35px;
+  width: 100%;
 }
 
 .end {
   display: flex;
   justify-content: space-around;
-
+  width: 100%;
   font-size: 20px;
   /* background-color: green; */
 }
 
 .yellow {
-  border: 3px yellow solid;
+  border: 8px yellow solid;
 }
 
 .red {
-  border: 3px red solid;
+  border: 8px red solid;
 }
 
 .green {
-  border: 3px green solid;
+  border: 8px green solid;
 }
 
 .blue {
-  border: 3px blue solid;
+  border: 8px blue solid;
 }
 
 .pink {
-  border: 3px pink solid;
+  border: 8px pink solid;
 }
 
 .footer {

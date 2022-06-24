@@ -4,6 +4,14 @@ const Jobs = (props) => {
   return (
     <>
       <div class="large_div">
+        <div className="annonce blue">
+          <Job
+            title={"Full Times Sales Associate - Sidney Boutique"}
+            contractType={"CDI"}
+            country={"Australie"}
+            city={"Sydney"}
+          />
+        </div>
         <div className="annonce red">
           <Job
             title={"Agent de Sécurité - Pantin"}
@@ -68,15 +76,7 @@ const Jobs = (props) => {
         </div>
         <div className="annonce yellow">
           <Job
-            title={"Infirmier(H/F"}
-            contractType={"CDI"}
-            country={"France"}
-            city={"Pantin"}
-          />
-        </div>
-        <div className="annonce blue">
-          <Job
-            title={"Infirmier(H/F"}
+            title={"Infirmier(H/F)"}
             contractType={"CDI"}
             country={"France"}
             city={"Pantin"}

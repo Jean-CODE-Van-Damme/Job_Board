@@ -7,11 +7,9 @@ const App = () => {
   return (
     <>
       <Header name={"The Job Board"} />
-
       <div className="body">
         <Jobs />
       </div>
-
       <div class="footer">
         <Footer
           dedicace={"Made with React at Le reacteur By Olivier Reverseau"}
